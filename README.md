@@ -38,6 +38,16 @@ yarn test:unit
 
 ## Cypress E2E Tests
 
+### Site URL environment variable
+
+To successfully run the Cypress test spec [cypress/e2e/robots.cy.ts](https://github.com/cypress-io/cypress-realworld-testing/blob/main/cypress/e2e/robots.cy.ts) on `linux` operating systems, first set the environment variable `SITE_URL` as follows:
+
+```bash
+export SITE_URL=https://learn.cypress.io
+```
+
+### Test run commands
+
 Cypress tests can be run via the Cypress test runner and UI with the following command.
 
 ```bash
